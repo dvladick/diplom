@@ -6,7 +6,7 @@ setup(
     description='Library for calculating error due to PIV',
     author='Dvornikov Vladislav',
     license='HSE',
-    install_requires=['numpy', 'scipy'],
+    install_requires=['numpy', 'scipy', 'openpiv', 'matplotlib'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests'
